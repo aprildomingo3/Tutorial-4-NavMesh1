@@ -104,6 +104,12 @@ namespace Assets.Code
             }
         }
 
+        void FixedUpdate()
+        {
+            if (Input.GetKey("escape"))
+                Application.Quit();
+        }
+
 
 
         private void SetDestination()
